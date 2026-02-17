@@ -1,0 +1,112 @@
+:root{
+
+--color: hsl(217, 54%, 11%);
+--card_BG: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Cyan: hsl(178, 100%, 50%);
+--Blue: hsl(215, 51%, 70%);
+}
+body{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+background-color: var(--color);
+}
+ .main{
+background-color: var(--card_BG);
+width: 365px;
+ height: 604px;
+margin: 50% auto;border-radius: 20px;
+position: relative;
+left:50px;
+box-shadow: 2px 2px 30px 0px black ;
+
+
+}
+.img1{
+border-radius: 10px;
+    margin: 10px 20px;
+    width: 90%;
+    height: 250px;
+}
+h2{
+padding-left: 28px;
+color: var(--White);
+font-weight: 400;
+}
+p{
+font-size: 18px;
+padding-left: 28px;
+color: hsl(215, 51%, 70%);
+font-weight: 200;
+}
+.clock{
+
+position: absolute;
+right: 20px;}
+.daye{
+position: absolute;
+left: 20px;
+}
+
+
+.aft::after{
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    width: 88%;
+    height: 1px;
+    background-color: var(--Blue);
+}.src{
+
+position: relative;
+    text-align: center;
+top: 37px;
+left: -21px;
+}
+.img2{
+
+position: relative;
+    bottom: 38px;
+}
+
+
+
+
+.img3{
+    
+position: relative;
+    bottom: 40px;
+    right: -7px;
+}
+.img4{
+
+border-color: var(--White);
+    border-style: solid;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    position: relative;
+    top: 60px;
+    right: 119px;
+}
+.src span{
+color: var(--White);
+margin-right: -20px;
+    padding-left: 8px;
+}
+
+.aft{
+    position: relative;
+    width: 80%;
+}
+.sa{
+
+color:var(--Cyan)
+
+
+}
